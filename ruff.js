@@ -29,3 +29,13 @@ try {
     console.log("variable a is not defined");// this will catch the error and print the message
 }
 console.log("the webise is still working"); // this will work fine because the error is handled by the catch block
+//we can also print the error message in the catch block
+console.log("hellow");
+console.log("hii");
+try {
+    console.log(a); // this will throw an error because a is not defined
+} catch {
+    console.log("variable a is not defined");// this will catch the error and print the message
+    console.log(error);
+}
+console.log("the webise is still working"); // this will work fine because the error is handled by the catch block
