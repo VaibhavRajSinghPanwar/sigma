@@ -1,4 +1,4 @@
-/*const student = {
+/* const student = {
     name: "Vaibhav",
     age : 23,
     eng : 95,
@@ -13,7 +13,7 @@
 function getAvg() {
     console.log(this); 
 }
-    */
+
 //try and catch
 //if our website have only one error then the whole website will crash and we will not be able 
 //to see the rest of the website but if we use try and catch then we can handle the error and 
@@ -39,3 +39,17 @@ try {
     console.log(error);
 }
 console.log("the webise is still working"); // this will work fine because the error is handled by the catch block
+
+*/
+
+//Miscellaneous
+//Arrow function
+//Arrow function is a new way to write functions in JavaScript. It is a shorter syntax for writing functions.
+//It does not have its own this keyword, it inherits the this value from the enclosing scope. 
+// It is also called a fat arrow function
+// const function = (argu1 , argu2  .. ) => {Function definition}
+const sum = (a , b) => {
+    console.log(a + b);
+    
+}
+ 
