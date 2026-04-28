@@ -65,3 +65,8 @@ const cube = a => {
     return a * a * a;
 }
 //it works without parenthises also
+//hellow
+const hellow = () => {
+    console.log("hellow world");
+    
+}
