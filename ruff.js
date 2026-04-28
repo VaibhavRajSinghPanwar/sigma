@@ -50,6 +50,10 @@ console.log("the webise is still working"); // this will work fine because the e
 // const function = (argu1 , argu2  .. ) => {Function definition}
 const sum = (a , b) => {
     console.log(a + b);
-    
+
+}
+
+const cube = (a) => {
+    return a * a * a;
 }
  
