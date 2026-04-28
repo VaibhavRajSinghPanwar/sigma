@@ -40,7 +40,7 @@ try {
 }
 console.log("the webise is still working"); // this will work fine because the error is handled by the catch block
 
-*/
+
 
 //Miscellaneous
 //Arrow function
@@ -60,3 +60,8 @@ const cube = (a) => {
 const pow = (a , b) => {
   return a ** b;
 }
+*/
+const cube = a => {
+    return a * a * a;
+}
+//it works without parenthises also
