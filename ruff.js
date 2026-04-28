@@ -68,5 +68,9 @@ const cube = a => {
 //hellow
 const hellow = () => {
     console.log("hellow world");
-    
+
 }
+// arrow function implicit return 
+// if the function body has only one statement then we can omit the curly braces and  
+// the return keyword and the value of that statement will be returned by the function
+const sum = (a , b) => a + b; // implicit return
