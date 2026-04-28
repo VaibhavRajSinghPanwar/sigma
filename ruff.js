@@ -57,3 +57,6 @@ const cube = (a) => {
     return a * a * a;
 }
  
+const pow = (a , b) => {
+  return a ** b;
+}
