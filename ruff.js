@@ -60,7 +60,7 @@ const cube = (a) => {
 const pow = (a , b) => {
   return a ** b;
 }
-*/
+
 const cube = a => {
     return a * a * a;
 }
@@ -74,3 +74,8 @@ const hellow = () => {
 // if the function body has only one statement then we can omit the curly braces and  
 // the return keyword and the value of that statement will be returned by the function
 const sum = (a , b) => a + b; // implicit return
+*/
+// Set Timeout funstion
+// setTimeout is a function that allows you to execute a function after a certain amount of time has passed
+//setTimeout(function , timeout).counts in milliseconds
+  
