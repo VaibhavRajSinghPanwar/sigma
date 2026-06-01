@@ -74,11 +74,15 @@ const hellow = () => {
 // if the function body has only one statement then we can omit the curly braces and  
 // the return keyword and the value of that statement will be returned by the function
 const sum = (a , b) => a + b; // implicit return
-*/
+
 // Set Timeout funstion
 // setTimeout is a function that allows you to execute a function after a certain amount of time has passed
 //setTimeout(function , timeout).counts in milliseconds
 console.log("hi there!");
 setTimeout( () => {
 console.log("der se chala");
-} , 4000);
+} , 4000);*/
+
+setIntervel(() => {
+    console.log("ab dekhte hai ye kiya karta hai");
+},2000);
