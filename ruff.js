@@ -81,8 +81,16 @@ const sum = (a , b) => a + b; // implicit return
 console.log("hi there!");
 setTimeout( () => {
 console.log("der se chala");
-} , 4000);*/
-
-setIntervel(() => {
+} , 4000);
+console.log("hi there");
+setInterval(() => {
     console.log("ab dekhte hai ye kiya karta hai");
+},2000);*/
+let id = setInterval(() => {
+    console.log("Hello vaibhav");
 },2000);
+
+setTimeout(() => {
+    clearInterval(id);
+},10000);
+
