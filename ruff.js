@@ -85,12 +85,67 @@ console.log("der se chala");
 console.log("hi there");
 setInterval(() => {
     console.log("ab dekhte hai ye kiya karta hai");
-},2000);*/
+},2000);
 let id = setInterval(() => {
     console.log("Hello vaibhav");
 },2000);
 
 setTimeout(() => {
     clearInterval(id);
+//array methods
+let arr = [1,2,3,4,5];
+let print = function(el)
+{
+  console.log(el);
+
+};
+
+arr.forEach(print);
+//let arr = [1,2,3,4,5];
+arr.forEach(function(el){
+ console.log(el);
+});
+arr.forEach((el)=>{
+ console.log(el);
+});
 },10000);
 
+let arr = [
+{
+    name: "Vaibhav",
+    marks: 99,
+},
+{
+    name: "sheetal",
+    marks: 35,
+},
+{
+    name: "tushar",
+    marks:33,
+
+}];
+
+arr.forEach((student)=>{
+    console.log(student.name);
+}); 
+//map
+let arr = [1,2,3,4];
+let double = arr.map(function(el)
+{
+ return el*2;
+}); 
+
+let arr = [1,2,3,4,5,6,7,8,9,10];
+let even = arr.filter((num)=>{return num % 2 == 0;});
+*/
+
+let arr1 = [1,2,3,4];
+let arr2 = [2,4];
+
+let r1 = arr1.every((el)=>{
+    return el % 2 == 0;
+});
+
+let r2 = arr2.every((el)=>{
+    return el % 2 == 0;
+});
