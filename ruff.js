@@ -154,7 +154,7 @@ let r2 = arr2.every((el)=>{
 let nums = [1,2,3,4];
 let finalValue = nums.reduce((res,el) => res + el);
 console.log(finalValue);
-*/
+
 // geting maximum number in arry by using reduce funtion 
 let num = [1,4,3,5,6,8,5,10,34,56,78,43];
  
@@ -167,5 +167,29 @@ let finalValue = num.reduce((max,el) => {
     }
 });
 console.log(finalValue);
+//practice question checking all numbers in the array are multiple of 10 or not 
+let num = [10,20,30,50,40,60,900];
+let num1 = [10,30,,40,45,60,70,80];
+let firstAnswer = num.every((el) => el % 10 == 0);
+let SecondAnswer = num1.every((el) => el % 10 == 0);
+//practice question create a function to get the minimun number in any array
+let num = [23,45,63,21,5,3,78,92];
+let minimum = num.reduce((min,el) => {
+    if(min > el)
+    {
+        return el;
+    }else{
+        return min;
+    }
+});
+//Math.min funtion using spread
+let num = [1,2,3,5,6,7,88,7,6,9,0,-8];
+let ans = Math.min(...num);
 
+//using spread in object litrels
+let data = {
+    email: "panwar9538@gmail.com" ,
+    pasword: "kiyabaat",
+};
+let data_copy = {...data,id:123};
 
