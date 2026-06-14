@@ -137,7 +137,7 @@ let double = arr.map(function(el)
 
 let arr = [1,2,3,4,5,6,7,8,9,10];
 let even = arr.filter((num)=>{return num % 2 == 0;});
-*/
+
 
 let arr1 = [1,2,3,4];
 let arr2 = [2,4];
@@ -149,3 +149,23 @@ let r1 = arr1.every((el)=>{
 let r2 = arr2.every((el)=>{
     return el % 2 == 0;
 });
+
+// reduce funtion
+let nums = [1,2,3,4];
+let finalValue = nums.reduce((res,el) => res + el);
+console.log(finalValue);
+*/
+// geting maximum number in arry by using reduce funtion 
+let num = [1,4,3,5,6,8,5,10,34,56,78,43];
+ 
+let finalValue = num.reduce((max,el) => {
+    if(max < el)
+    {
+        return el;
+    }else{
+        return max;
+    }
+});
+console.log(finalValue);
+
+
