@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"midnight-docs": {
+			"type": "http",
+			"url": "https://midnight.mcp.kapa.ai"
+		}
+	},
+	"inputs": []
+}
