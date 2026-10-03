@@ -1,13 +1,6 @@
-/*let n =5;
+import{sum, pi} from "./math.js";
 
-for(let i = 0; i < n; i++)
-{
-    console.log("Hello,",i);
-}*/
-
-let args = process.argv;
-
-for(let i = 2; i < args.length; i++)
-{
- console.log("Hello and Welcome",args[i]);
-}
+console.log(sum(1,2));
+console.log(pi);
+import { generate } from "random-words";
+console.log(generate());
